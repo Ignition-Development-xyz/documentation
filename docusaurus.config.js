@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Ignition-Development',
   tagline: 'A new and reliable development team that looks towards improving security of new web apps and more.',
-  url: 'https://ignition-development.xyz',
+  url: 'https://docs.ignition-development.xyz',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Ignition-Development', // Usually your GitHub org/user name.
-  projectName: 'Ignition-Development', // Usually your repo name.
+  projectName: 'documentation', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Ignition-Development/documentation',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
