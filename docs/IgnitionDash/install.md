@@ -32,6 +32,13 @@ The first step in this process is to create the folder where the dashboard will 
 mkdir -p /var/www/client
 cd /var/www/client
 ```
+
+### Set Permissions
+The last step in the installation process is to set the correct permissions on the Dash files so that the webserver can use them correctly.
+```bash
+chown -R www-data:www-data /var/www/client/*
+```
+
 Once you have created a new directory for the Dashboard and moved into it you'll need to download the Dashboard files. This is as simple as using curl to download our pre-packaged content. Once it is downloaded you'll need to unpack the archive and then set the correct permissions on the core/ and tmp/ directories. These directories allow us to store files as well as keep a speedy cache available to reduce load times.
 
 ```bash
